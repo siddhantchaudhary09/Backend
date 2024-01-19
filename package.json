@@ -1,0 +1,16 @@
+{
+  "name": "backend-chai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "siddhant",
+  "license": "ISC",
+  "dependencies": {
+    "dot": "^1.1.3",
+    "dotenv": "^16.3.2",
+    "env": "^0.0.2"
+  }
+}
