@@ -2,9 +2,11 @@
   "name": "backend-chai",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "author": "siddhant",
   "license": "ISC",
@@ -12,5 +14,9 @@
     "dot": "^1.1.3",
     "dotenv": "^16.3.2",
     "env": "^0.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.4"
   }
 }
